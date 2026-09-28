@@ -11,7 +11,9 @@ let currentMode = "pomodoro";
 let timeLeft = MODES[currentMode];
 let intervalId = null;
 
-const alarmSound = new Audio("alarm-clock-90867.mp3");
+const alarmSound = new Audio(
+  "assets/freesound_community-alarm-clock-90867.mp3",
+);
 
 function updateSystemClock() {
   const now = new Date();
